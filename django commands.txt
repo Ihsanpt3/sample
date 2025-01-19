@@ -1,0 +1,15 @@
+Python manage.py makemigrations
+
+
+If the above commands says no changes detected, You can also do it for individual apps.
+For example if you have 10 apps named a, b, c, d, e, f, g, h, i, j. You can run makemigrations individually for these apps.
+
+
+ Python manage.py migrate 
+
+
+python3 manage.py createsuperuser
+
+
+
+python manage.py runserver
